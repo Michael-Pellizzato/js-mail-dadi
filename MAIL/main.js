@@ -18,7 +18,7 @@ const latuaemail = prompt( "Inserisci la tua email")
 
 let whitelist = false
 
-//variabili
+//condizioni
 
 for( let i = 0; i < invitati.length; i++){
     if (invitati[i] === latuaemail)

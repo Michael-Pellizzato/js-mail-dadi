@@ -5,3 +5,24 @@ Prima di partire a scrivere codice poniamoci qualche domanda:
 Che ci sia un array da qualche parte?
 Se dobbiamo confrontare qualcosa che "cosa" ci serve?*/
 
+//fase di preparazione
+
+let persona = Math.floor((Math.random() * 6) + 1)
+
+let computer = Math.floor((Math.random() * 6) + 1)
+
+console.log(persona, computer)
+
+//fase di condizione e output
+
+if (persona > computer) {
+    console.log("HAI VINTO")
+
+} else if (persona < computer) {
+    console.log("HAI PERSO")
+
+} else {
+    console.log("PAREGGIO")
+
+
+} 
