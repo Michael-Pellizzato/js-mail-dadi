@@ -8,3 +8,29 @@ Si può fare? Certo che si basta ragionare un po’.
 Nota:
 Non è necessario provvedere alla validazione delle email*/
 
+//fase di preparazione
+
+const invitati = [
+    "marco.rossi@gmail.com", "simone.catullo@gmail.com", "giovanna.dilorenzo@gmail.com"
+]
+
+const latuaemail = prompt( "Inserisci la tua email")
+
+let whitelist = false
+
+//variabili
+
+for( let i = 0; i < invitati.length; i++){
+    if (invitati[i] === latuaemail)
+        whitelist = true;
+}
+
+//output
+
+if (whitelist){
+    console.log("iscrizione effettuata")
+}else{
+    console.log( "inscrizione negata")
+}
+
+
